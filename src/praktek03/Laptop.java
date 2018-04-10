@@ -5,5 +5,8 @@ public class Laptop {
     String warna;
     Double harga;
     
-    
+void cetakInfo(){
+        System.out.println("Nama \t:"+nama+"\n"+"Merk \t :" +merk+"\n"+"Warna \t"
+                + " :" +warna+"\n"+"harga \t :" +harga);
+}
 }
