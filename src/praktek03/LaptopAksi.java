@@ -9,6 +9,16 @@ public class LaptopAksi {
         s.setHarga(5000000);
         
         s.cetakInfo();
+        
+        System.out.print("Namanya \t : ");
+        System.out.println(s.getNama());
+        System.out.print("Merknya \t : ");
+        System.out.println(s.getMerk());
+        System.out.print("Warnanya \t : ");
+        System.out.println(s.getWarna());
+        System.out.print("Harganya \t : ");
+        System.out.println(s.getHarga());
+        
     }
  
 }
