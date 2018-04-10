@@ -19,6 +19,15 @@ public class LaptopAksi {
         System.out.print("Harganya \t : ");
         System.out.println(s.getHarga());
         
+        Komputer k = new Komputer();
+        k.setNama("Komputer");
+        k.setMerk("HP");
+        k.setWarna("Hitam");
+        k.setHarga(7000000);
+        k.setJenisKomputer("Desknote");
+        k.cetakInfo();
+        System.out.println("Jenis \t:"+k.getJenisKomputer());
+        k.throttle();
     }
  
 }
