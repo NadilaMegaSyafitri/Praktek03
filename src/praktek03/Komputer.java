@@ -5,4 +5,14 @@ public class Komputer extends Laptop{
     void throttle (){
         System.out.println("Kualitas OK...");
     }
+
+    public String getJenisKomputer() {
+        return jenisKomputer;
+    }
+
+    public void setJenisKomputer(String jenisKomputer) {
+        this.jenisKomputer = jenisKomputer;
+    }
+    
+    
 }
